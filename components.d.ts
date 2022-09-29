@@ -11,6 +11,8 @@ declare module '@vue/runtime-core' {
     Checkbox: typeof import('./resources/js/Components/Checkbox.vue')['default']
     Dropdown: typeof import('./resources/js/Components/Dropdown.vue')['default']
     DropdownLink: typeof import('./resources/js/Components/DropdownLink.vue')['default']
+    ElButton: typeof import('element-plus/es')['ElButton']
+    ElTag: typeof import('element-plus/es')['ElTag']
     InputError: typeof import('./resources/js/Components/InputError.vue')['default']
     InputLabel: typeof import('./resources/js/Components/InputLabel.vue')['default']
     NavLink: typeof import('./resources/js/Components/NavLink.vue')['default']
